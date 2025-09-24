@@ -1,0 +1,17 @@
+name: naturalis_lca
+owner:  duijker.d
+description: "A tool to determine the lowest common ancestor from BLAST results with taxonomy." 
+long_description: |
+  "A tool to determine the lowest common ancestor from BLAST results with taxonomy.
+  This approach is partly based on MEGAN's (Huson et al., 2007) LCA method. 
+  This tool does not specifically use taxonids or separated mapping files. 
+  Instead, the script handles files with the taxonomy present in the last column of the input file. 
+  Those input files can be generated with our BLAST pipeline or you can create them manually.".
+remote_repository_url: https://github.com/naturalis/galaxy-tool-lca.git
+homepage_url: https://github.com/naturalis/galaxy-tool-lca.git
+type: unrestricted
+categories:
+   - "Metagenomics"
+auto_tool_repositories:
+  name_template: naturalis_lca
+  description_template: naturalis_lca
